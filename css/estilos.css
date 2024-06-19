@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box; 
+    margin: 0;
+}
+    
+
+header{
+    width: 100%;
+    text-align: center;
+
+    color: lightcyan;
+    padding: 300px;
+    margin: auto;
+}
+
+
+
+h3 a {
+    text-decoration: none; 
+    color:black;
+    background-color: yellow;
+    border: 1px dashed black;
+    width: 105px;
+    height: 40px;
+    display: block;
+    margin: 100px auto;
+    margin-bottom: 40%;
+    font-family: "outfit", sans-serif;
+    font-weight: 400;
+    width: 15%;
+    transition-property: border-radius, background-color; 
+    transition-duration: 2s, 1s;
+    line-height: 33px;
+    padding: 2px;
+}
+header a:hover{
+    background-color: rgb(3, 3, 130);
+    color: rgb(162, 7, 7);
+    border-color: black;
+    text-decoration: underline;
+    border-radius: 130%;
+    text-decoration-color: rgb(162, 7, 7);
+    font-weight: 500;
+
+     }
+
+h1{
+    color: red;
+    font-size: 410%;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+}
+    
+h2{
+    font-size: 130%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+    
+div.cine {
+    height: 77px;
+    width: 117px;
+    background-image: url(../Imagenes/Para\ animar.jpg);
+
+    margin: 50px auto;
+    align-items: center;
+
+    animation: tiempo 1s infinite;
+    animation-timing-function: linear;      
+}
+        
+@keyframes tiempo {  
+
+    from { background-position: 0px 77px }
+    to { background-position: 0px -130px }    
+
+ }
+       
+
+main{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body{
+    background-image: url(../Imagenes/Fondo.jpeg);
+}
+
+div{
+    width: 30%;
+}
+
+#video{
+    width: 40%;
+    margin: 12px auto;
+    align-items: center;
+    margin-top: 1%;
+}
+
+img, video{ 
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(3, 3, 130);
+    height: 30px;
+    color: rgb(162, 7, 7);
+    font-family: "outfit", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 4px;
+}
+
+
+
